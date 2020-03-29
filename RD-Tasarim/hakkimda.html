@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+<title>Hakkımda | Creative-Blog</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="theme.css">
+<link rel="icon" href="https://img.webme.com/pic/c/creative-blog/favicon1.png">
+
+<meta name="description" content="Creative-Blog Kişisel Web Sayfası"> 
+<meta name="keywords" content="blog,css,html,web,kişisel,creative-blog,tolgahançelik">
+<meta name="googlebot" content="archive"> 
+<meta name="revisit-after" content="1 days">
+<meta name="robots" content="index,iletisim,konuk-defteri,hakkimda">
+<meta name="copyright" content="2009-2018 Tolgahan Çelik">
+
+<script src="js/jquery-1-3-1-min"></script>
+<script src="js/jquery-easing-1-3"></script>
+	<script>
+	
+	$(document).ready(function () {
+
+		//Set the height of the block
+		$('#yanmenu .block').height($('#yanmenu li').height());
+
+		//go to the default selected item
+		topval = $('#yanmenu .selected').position()['top'];
+		$('#yanmenu .block').stop().animate({top: topval}, {easing: '', duration:500});
+
+		$('#yanmenu li').hover(
+			
+			function() {
+				
+				//get the top position
+				topval = $(this).position()['top'];
+				
+				//animate the block
+				//you can add easing to it
+				$('#yanmenu .block').stop().animate({top: topval}, {easing: '', duration:500});
+				
+				//add the hover effect to yanmenu item
+				$(this).addClass('hover');	
+			},
+			
+			function() {		
+				//remove the hover effect
+				$(this).removeClass('hover');	
+			}
+		);
+	
+	});
+	
+	</script>
+
+<script src="js/jquery-b17397.js"></script>
+<script src="js/raf-slideshow.js"></script>
+<script src="js/capa.js"></script>
+
+<script src="js/jquery-1-4-4-min.js"></script>
+<script src="js/jquery-prettyphotov1.js"></script>      
+<script>
+		$(document).ready(function(){
+$("a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'facebook'});
+		});
+</script>
+        
+</head>
+<body>
+<div id="Ust-Tahta"></div>
+<div id="All-Design">
+
+<header>
+<div id="RD-1">
+<div id="Logo-Taban"><a href="index.html"><div id="Logo"></div></a></div>
+</div>
+</header>
+
+<div id="RD-2"></div>
+
+<section>
+<div id="RD-3">
+<div id="broder">
+<div id="slide">
+    <a id="p1" href="resim-cizme.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow6.png" width="911" height="300" alt="Slideshow1" /></a>
+    <a id="p2" href="creative-fun.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow7.png" width="911" height="300" alt="Slideshow2" /></a>
+    <a id="p3" href="css-site-dizaynlar.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow2.png" width="911" height="300" alt="Slideshow3" /></a>
+    <a id="p4" href="uc-boyutlu-sesler.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow3.png" width="911" height="300" alt="Slideshow4" /></a>
+    <a id="p5" href="konuk-defteri.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow5.png" width="911" height="300" alt="Slideshow5" /></a>
+  </div>
+<div id="previous"></div>
+<div id="next"></div>
+<div id="buttons">
+    <div id="b1"><b>1</b></div>
+    <div id="b2"><b>2</b></div>
+    <div id="b3"><b>3</b></div>
+    <div id="b4"><b>4</b></div>
+    <div id="b5"><b>5</b></div>
+</div>
+</div>
+<div class="" id="Raf-Slideshow"></div>
+
+<div class="Duzen" id="Ana-Alan">
+<div id="Content">
+<style type="text/css">
+#titlesubject {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: underline;
+	color: #A78563;
+	font-size: 24px;
+	width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+	margin-bottom:20px;
+}
+#Zorunlu {
+	position: relative;
+	width: 465px;
+	left: -15px;
+	top: 10px;
+	height: 600px;
+}
+#Renkli a img {
+	border: 3px solid #a78563;
+	border-radius: 8px; /* Standart */
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px;
+}
+#Renkli a img:hover {
+	border: 3px solid #9CCB6C;
+	border-radius: 8px; /* Standart */
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px;
+}
+#Renkli {
+	width: 75px;
+	text-align: center;
+	float: left;
+	height: 75px;
+	margin-right: 7px;
+	margin-left: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.Hakkimda-Special {
+	background-image: url(https://img.webme.com/pic/c/creative-blog/grass.png);
+}
+/* Menü Temeli - (Özel Tasarım) */
+
+#Hakkimda {
+	border: thin solid #A78563;
+	border-radius:10px; /* Standart */
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px;
+	width: 500px;
+	height: 30px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left:auto;
+}
+#Hakkimda ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: none;
+}
+#Hakkimda ul li {
+	position: relative;
+	float: left;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #A78563;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #A78563;
+}
+#Hakkimda ul li a {
+	height: 30px;
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #FFF;
+	width: 115px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+#Hakkimda ul li a:hover {
+	height: 30px;
+	display: block;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height: 30px;
+	text-decoration: underline;
+	font-size: 13px;
+	width: 115px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+/* Menü Temeli - (Özel Tasarım) */
+
+/* Menü Açılır Kısmı - (Özel Tasarım) */
+
+#Hakkimda ul li:hover .Alt-Ekle {
+	display: block;
+	position: absolute;
+}
+.Alt-Ekle {
+	position: absolute;
+	display:none;
+	width: 465px;
+	border-radius: 0px 0px 10px 10px; /* Standart */
+	-moz-border-radius: 0px 0px 10px 10px; /* Firefox */
+	-webkit-border-radius: 0px 0px 10px 10px;  /* Chrome */
+	text-align: center;
+	padding-top: 20px;
+	background: rgba(125, 97, 74, 0.1);
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #A78563;
+	border-bottom-color: #A78563;
+	border-left-color: #A78563;
+	color: #6D5C49;
+	top: 30px;
+	padding-bottom: 20px;
+}
+#Alt-Ekle1 {
+	margin-left: 8px;
+}
+#Alt-Ekle2 {
+	margin-left: -114px;
+}
+#Alt-Ekle3 {
+	margin-left: -236px;
+}
+#Alt-Ekle4 {
+	margin-left: -358px;
+}
+table{
+margin-right:auto;
+margin-left:auto;	
+}
+
+/* Menü Açılır Kısmı - (Özel Tasarım) */
+</style>
+<h2>Hakkımda</h2>
+Herkese selamlar hakkımızda sayfası i&ccedil;eriklerine aşağıdaki men&uuml;n&uuml;n &uuml;st&uuml;ne gelerek erişebilirsiniz. Ayrıca bu kodu tamamen kendim hazırladım hakkımda sayfası i&ccedil;in birazcık &ouml;zel olucağını notumda belirtmiştim. =) <br />
+<br />
+<div class="Hakkimda-Special" id="Hakkimda">
+<ul>
+    <li><a href="#">Ben Kimim Ki?</a>
+    <div id="Alt-Ekle1" class="Alt-Ekle"><span style="text-decoration:underline; font-size: 18px; font-family: Tahoma;"><span style="color: rgb(109, 92, 73);">Ben Kimim Ki?</span></span> <br />
+    <br />
+    Bunu okuyan herkese selamlar. Kimmiş bu diye okuyanlara da selam olsun. İsmim Tolgahan. 17 Yaşındayım ve Bilecikte yaşıyorum. Bilecik T&uuml;rkiyenin bir ilidir ayrıca, k&ouml;y sananlara selam olsun :D Bilecik Anadolu Lisesi (BAL)'da Lise 3 &ouml;ğretimi g&ouml;r&uuml;yorum. A&ccedil;ıkcası s&ouml;ylemek gerekir ki sayısala gitmek yemediği i&ccedil;in TM b&ouml;l&uuml;m&uuml;n&uuml; se&ccedil;miş mağdur &ouml;ğrencinin biriyim :D <br />
+    <br />
+    Bedava-Sitem'e yaklaşık 11-12 yaşlarından başladım. 4-5 senelik BS kullanıcısıyım ve bu sayede 4-5 yıldır &quot;Grafiker'lik&quot; ile ilgileniyorum. Kendi &ccedil;apımda iyi sayılırım tabiki fakat kodlar hakkında &ouml;ğrenilmesi gereken &ccedil;ok şey var. <br />
+    <br />
+    Geri kalan konuşmalara &quot;Hobileri Neemiş'den&quot; devam edicem. =)</div>
+    </li>
+    <li><a href="#">Hobileri Neemiş?</a>
+    <div id="Alt-Ekle2" class="Alt-Ekle"><span style="text-decoration:underline; font-size: 18px; font-family: Tahoma;"><span style="color: rgb(109, 92, 73);">Hobileri Neemiş?</span></span> <br />
+    <br />
+    Tamam bu adamı tanıdıkta bu mağdur nelerden hoşlanıyodur ki diyenlere gelsin bu yazı; <br />
+    <br />
+    1- Anime Hastası: Tam anlamıyla bir anime delisiyim. 1 g&uuml;nde sezonları bitirebilecek kadar izleyebilirim hatta. İzlediğim animeler: Mirai Nikki, Shingeki No Kyojin, Naruto, Bleach, One Piece, Noragami, Fairy Tail,  Sword Art Online vs. <br />
+    <br />
+    2- Oyun Bağımlısı: Herkes gibi bende oyun oynamayı olduk&ccedil;a severim. Bağımlısı gibi yazsam da &quot;Anime&quot; kadar aramam hani. Oynadığım oyunlar: Minecraft, League of Legends, Sims, Mount Blade Warband, Counter Strike vs. <br />
+    <br />
+    3- Tasarım Yaratıcı: Ben tasarım &ccedil;izmeyi paylaşım yapmam gerektiği i&ccedil;in yapmam a&ccedil;ık ve net. O sırada aklıma ş&ouml;yle bişey yapsam nasıl olur diye d&uuml;ş&uuml;nce gelir ve bunu uygulayıp g&ouml;rmek i&ccedil;in tasarım yaparım tamamen zevk ama&ccedil;lı yani :D <br />
+    <br />
+    4- Maksat Muhabbet: Bu adamın hobileri sadece bilgisayardamı demeyin diye 4.maddeyi hazırladım. Burası blog olduğu i&ccedil;in internet ile alakalı hobileri sıraladım. Normal hayatta yapmaktan mutlu olduğum şeyleri sıralarsak burası oku oku bitmez. Haydi sağlıcakla =)</div>
+    </li>
+    <li><a href="#">Tipini G&ouml;relim</a>
+    <div id="Alt-Ekle3" class="Alt-Ekle"><span style="text-decoration:underline; font-size: 18px; font-family: Tahoma;"><span style="color: rgb(109, 92, 73);">Tipini G&ouml;relim</span></span> <br />
+    <br />
+    <table width="300" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+            <tr>
+              <td align="center">Bir Selfie;<br />
+                <img width="190" height="325" alt="" src="https://img.webme.com/pic/c/creative-blog/tolgahancelik-10.jpg" /> <br />
+                &nbsp;</td>
+            </tr>
+            <tr>
+                <td align="center">Kuş Adası Tatili;<br />
+                <img width="220" height="290" alt="" src="https://img.webme.com/pic/c/creative-blog/tolgahancelik-9.jpg" /> <br />
+                &nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </li>
+    <li><a href="#">&Ccedil;alışmalar</a>
+    <div id="Alt-Ekle4" class="Alt-Ekle"><span style="text-decoration:underline; font-size: 18px; font-family: Tahoma;"><span style="color: rgb(109, 92, 73);">Renklerdirme &Ccedil;alışmaları</span></span> <br />
+    <br />
+    &Ccedil;izimler &quot;&Ccedil;izer: Kenan Yarar&quot;a aittir. Renklendirmeler benim tarafımdan acemice yapılmıştır. Yeni renklendirmeler yaptık&ccedil;a buraya ekleyeceğim.<br />
+    <br />
+    Not: Resimlere tıklayarak b&uuml;y&uuml;tebilirsiniz. <br />
+    <div id="Zorunlu">
+    <table width="378" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td width="199" align="center">
+                <div id="Renkli">
+                  <div align="center"><a rel="prettyPhoto[group1]" href="https://img.webme.com/pic/c/creative-blog/wp-1.png"><img src="https://img.webme.com/pic/c/creative-blog/wp-1.png" alt="" width="180" height="245" border="0" /></a></div>
+                </div>
+                </td>
+                <td width="179">
+                <div id="Renkli">
+                  <div align="center"><a rel="prettyPhoto[group1]" href="https://img.webme.com/pic/c/creative-blog/wp-1r.png"><img src="https://img.webme.com/pic/c/creative-blog/wp-1r.png" alt="" width="180" height="245" border="0" /></a></div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <div id="Renkli">
+                  <div align="center"><a rel="prettyPhoto[group1]" href="https://img.webme.com/pic/c/creative-blog/wp-2.png"><img src="https://img.webme.com/pic/c/creative-blog/wp-2.png" alt="" width="180" height="150" vspace="180" border="0" /></a></div>
+                </div>
+                </td>
+                <td>
+                <div id="Renkli">
+                  <div align="center"><a rel="prettyPhoto[group1]" href="https://img.webme.com/pic/c/creative-blog/wp-2r.png"><img src="https://img.webme.com/pic/c/creative-blog/wp-2r.png" alt="" width="180" height="150" vspace="180" border="0" /></a></div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <div id="Renkli">
+                  <div align="center"><a rel="prettyPhoto[group1]" href="https://img.webme.com/pic/c/creative-blog/wp-3.jpg"><img src="https://img.webme.com/pic/c/creative-blog/wp-3.jpg" alt="" width="180" height="150" vspace="270" border="0" /></a></div>
+                </div>
+                </td>
+                <td>
+                <div id="Renkli">
+                  <div align="center"><a rel="prettyPhoto[group1]]" href="https://img.webme.com/pic/c/creative-blog/wp-3r.png"><img src="https://img.webme.com/pic/c/creative-blog/wp-3r.png" alt="" width="180" height="150" vspace="270" border="0" /></a></div>
+                </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </div>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+
+<nav>
+<div id="yanmenu">
+<ul>
+<li>
+<div class="titleyanmenu">Ana Menü</div>
+</li>
+	<li class="selected"><a href="index.html">Ana Sayfa</a></li>
+	<li><a href="iletisim.html">İletişim</a></li>
+	<li><a href="konuk-defteri.html">Ziyaretçi Defteri</a></li>
+	<li><a href="hakkimda.html">Hakkımda</a></li>
+<li>
+<div class="titleyanalt"></div>
+</li>
+<li>
+<div class="titleyanmenu">İkonlar</div>
+</li>
+	<li><a href="araba-ikonlari.html">Araba İkonları</a></li>
+	<li><a href="koltuk-ikonlari.html">Koltuk İkonları</a></li>
+	<li><a href="ev-ikonlari.html">Ev İkonları</a></li>
+	<li><a href="hayvan-ikonlari.html">Hayvan İkonları</a></li>
+	<li><a href="saat-ikonlari.html">Saat İkonları</a></li>
+	<li><a href="yaratik-ikonlari.html">Yaratık İkonları</a></li>
+	<li><a href="warner-bros-ikonlari.html">Warner Bros İkonları</a></li>
+	<li><a href="kitap-ikonlari.html">Kitap İkonları</a></li>
+	<li><a href="tavsan-ikonlari.html">Tavşan İkonları</a></li>
+	<li><a href="bilgisayar-ikonlari.html">Bilgisayar İkonları</a></li>
+	<li><a href="eski-ikonlar-1.html">Eski İkonlar</a></li>
+	<li><a href="tatil-ikonlari.html">Yaz Tatili İkonları</a></li>
+</ul>
+<div class="titleyanalt"></div>
+<div class="titleyanmenu">Reklam</div>
+<div id="Menu-Reklam">
+    <a target="_blank" href="iletisim.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Ust"></a> 
+     <a target="_blank" href="iletisim.html">
+     <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Ust"></a> 
+    <a target="_blank" href="iletisim.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Alt"></a> 
+     <a target="_blank" href="iletisim.html">
+     <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Alt"></a></div>
+<div class="titleyanalt"></div>
+<div class="block png"></div>
+</div>
+</nav>
+</div>
+</section>
+
+<div id="RD-4"></div>
+</div>
+
+<footer>
+<div id="Alt-Baslik">
+<div id="Alt-Baslik-960">
+<div id="Alt-Baslik-Sol"></div>
+<div id="Alt-Baslik-Sag"></div>
+</div>
+</div>
+<div id="Alt-Tahta">
+<div id="Alt-Alan">
+<div id="Alt-Takas">
+<ul id="Sol-Takas">
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+</ul>
+<ul id="Sag-Takas">
+	<li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+</ul>
+</div>
+<div id="Alt-Reklam">
+  <div id="Alt-Reklam-Alan"><a href="iletisim.html"><img width="468" height="60" alt="Reklam" src="http://img.webme.com/pic/c/creative-blog/ght-reklam-buyuk.png"></a></div>
+  <div id="Alt-Agac"></div>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

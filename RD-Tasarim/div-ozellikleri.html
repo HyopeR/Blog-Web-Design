@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+<title>Div Özellikleri | Creative-Blog</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="theme.css">
+<link rel="icon" href="https://img.webme.com/pic/c/creative-blog/favicon1.png">
+
+<meta name="description" content="Creative-Blog Kişisel Web Sayfası"> 
+<meta name="keywords" content="blog,css,html,web,kişisel,creative-blog,tolgahançelik">
+<meta name="googlebot" content="archive"> 
+<meta name="revisit-after" content="1 days">
+<meta name="robots" content="index,iletisim,konuk-defteri,hakkimda">
+<meta name="copyright" content="2009-2018 Tolgahan Çelik">
+
+<script src="js/jquery-1-3-1-min"></script>
+<script src="js/jquery-easing-1-3"></script>
+	<script>
+	
+	$(document).ready(function () {
+		//Set the height of the block
+		$('#yanmenu .block').height($('#yanmenu li').height());
+		//go to the default selected item
+		topval = $('#yanmenu .selected').position()['top'];
+		$('#yanmenu .block').stop().animate({top: topval}, {easing: '', duration:500});
+		$('#yanmenu li').hover(
+			
+			function() {
+				
+				//get the top position
+				topval = $(this).position()['top'];
+				
+				//animate the block
+				//you can add easing to it
+				$('#yanmenu .block').stop().animate({top: topval}, {easing: '', duration:500});
+				
+				//add the hover effect to yanmenu item
+				$(this).addClass('hover');	
+			},
+			
+			function() {		
+				//remove the hover effect
+				$(this).removeClass('hover');	
+			}
+		);
+	
+	});
+	
+	</script>
+    
+<script src="js/jquery-b17397.js"></script>
+<script src="js/raf-slideshow.js"></script>
+<script src="js/capa.js"></script>
+
+<script  src="js/jquery-1-4-4-min.js"></script>
+<script src="js/jquery-prettyphotov1.js"></script>      
+<script>
+		$(document).ready(function(){
+$("a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'facebook'});
+		});</script>
+
+</head>
+<body>
+<div id="Ust-Tahta"></div>
+<div id="All-Design">
+
+<header>
+<div id="RD-1">
+<div id="Logo-Taban"><a href="index.html"><div id="Logo"></div></a></div>
+</div>
+</header>
+
+<div id="RD-2"></div>
+
+<section>
+<div id="RD-3">
+<div id="broder">
+<div id="slide">
+    <a id="p1" href="resim-cizme.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow6.png" width="911" height="300" alt="Slideshow1" /></a>
+    <a id="p2" href="creative-fun.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow7.png" width="911" height="300" alt="Slideshow2" /></a>
+    <a id="p3" href="css-site-dizaynlar.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow2.png" width="911" height="300" alt="Slideshow3" /></a>
+    <a id="p4" href="uc-boyutlu-sesler.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow3.png" width="911" height="300" alt="Slideshow4" /></a>
+    <a id="p5" href="konuk-defteri.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/RD-Slideshow5.png" width="911" height="300" alt="Slideshow5" /></a>
+  </div>
+<div id="previous"></div>
+<div id="next"></div>
+<div id="buttons">
+    <div id="b1"><b>1</b></div>
+    <div id="b2"><b>2</b></div>
+    <div id="b3"><b>3</b></div>
+    <div id="b4"><b>4</b></div>
+    <div id="b5"><b>5</b></div>
+</div>
+</div>
+<div class="" id="Raf-Slideshow"></div>
+
+<div class="Duzen" id="Ana-Alan">
+<div id="Content">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>   
+<script>
+
+$(document).ready(function()
+{
+	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+	$("#firstpane p.menu_head").click(function()
+    {
+		$(this).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+	});
+	//slides the element with class "menu_body" when mouse is over the paragraph
+	$("#secondpane p.menu_head").mouseover(function()
+    {
+	     $(this).next("div.menu_body").slideDown(500).siblings("div.menu_body").slideUp("slow");
+	});
+});
+</script> 
+<style>
+.menu_list {
+	width: 530px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.menu_head {
+	cursor: pointer;
+	position: relative;
+	margin:1px;
+	background-image: url(https://img.webme.com/pic/c/creative-blog/grass.png);
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	width: 528px;
+}
+.menu_body {
+	display:none;
+	border: thin solid #5F9F35;
+}
+.menu_body a{
+  text-decoration:none;
+}
+.menu_body a:hover{
+  color: #000000;
+  text-decoration:underline;
+  }
+img {
+	border: none;
+}
+#titlesubject {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration: underline;
+	color: #A78563;
+	font-size: 24px;
+	width: 510px;
+	text-align:center;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+#AAA {
+	width: 90%;
+	border-radius: 30px; /* Standart */
+	border: medium solid #A78563;
+	margin:0 auto;
+}
+.Anlatim {
+	width: 480px;
+	border: 2px solid #835130;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.Kod {
+	width: 380px;
+	background-color: #e1d6b7;
+	border: 1px solid #835130;
+	border-radius: 10px; /* Standart */
+	font-size: 12px;
+}
+.Konu-Baslik {
+	font-family: Tahoma;
+	color: #900;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.Konu-Cizgi {
+	margin-bottom: 7px;
+	background-color: #5f9f35;
+	height: 2px;
+	width: 526px;
+	color: #835130;
+	font-size: 0px;
+	position: relative;
+}
+#Shadow1 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	box-shadow: 0 0 8px 6px #a5bc66;
+	color: #000;
+	line-height: 100px;
+	text-align: center;
+}
+#Shadow2 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	box-shadow: 0 0 0 4px #f5e9c8, 0 8px 6px #a5bc66;
+	color: #000;
+	line-height: 100px;
+	text-align: center;	
+}
+#Radius1 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	border-radius: 20px; /* Standart */
+	color: #900;
+	line-height: 100px;
+	text-align: center;
+	border: 1px solid #835130;
+}
+#Radius2 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	color: #900;
+	line-height: 100px;
+	text-align: center;
+	border: 1px solid #835130;
+}
+#Opacity1 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	background-color: #835130;
+	opacity: 0.5;
+}
+#Opacity2 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	background-color: #835130;
+}
+#Opacity2:hover {
+	opacity: 0.5;
+}
+#Transition1 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	background-color: #835130;
+	transition: transform 0.7s ease-in-out;
+}
+#Transition1:hover {
+	background-color: #835130;
+	transform: scale(1.4);
+	transition: transform 0.7s ease-in-out;
+}
+#Transition2 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	background-color: #835130;
+	transition: background-color 0.7s linear ;
+}
+#Transition2:hover {
+	background-color: #5f9f35;
+	transition: background-color 0.7s linear ;
+}
+#Rotate1 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:20px;
+	margin-bottom:20px;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	background-color: #835130;
+	transform: rotate(45deg);
+}
+#Rotate2 {
+	width:100px;
+	height:100px;
+	margin-right:auto;
+	margin-left:auto;
+	position:relative;
+	margin-top:20px;
+	margin-bottom:20px;
+	color: #FFF;
+	line-height: 100px;
+	text-align: center;
+	background-color: #835130;
+transition: transform 0.7s ease-in-out;
+}
+#Rotate2:hover {
+	background-color: #835130;
+	transition: transform 0.7s ease-in-out;
+	transform: rotate(45deg);
+}
+</style>
+<div id="AAA">
+<h2>Diz Özellikleri Kullanımı</h2>
+<p>Merhaba arkadaşlar bug&uuml;n bloğumuzda farklı bi anlatımla karşınızdayım. Aslında bunun gibi anlatımların &ccedil;oğunu internetten aramayı bilenler i&ccedil;in bulması olduk&ccedil;a basit. Ben sadece bi ka&ccedil; basit şeyi g&ouml;stermek ama&ccedil;lı bu paylaşımı kendi siteme uyarlıyorum. Bedava-Sitem'de bulunan bir &ccedil;ok bu işe yeni başlamış kardeşlerimiz var &ouml;zellikle onlar i&ccedil;in bu olduk&ccedil;a yararlı olucağını d&uuml;ş&uuml;n&uuml;yorum.<br />
+<br />
+<strong style="color: rgb(167, 133, 99);">Neler mi var?</strong><br />
+<strong style="color: rgb(167, 133, 99);">1-</strong>&nbsp;Div g&ouml;lgelendirme. (Shadow)<br />
+<strong style="color: rgb(167, 133, 99);">2-</strong>&nbsp;Div tablosu yuvarlaklaştırma. (Radius)<br />
+<strong style="color: rgb(167, 133, 99);">3-</strong>&nbsp;Div saydamlaştırma. (Opacity)<br />
+<strong style="color: rgb(167, 133, 99);">4-</strong>&nbsp;Div zamanlama. (Transition)<br />
+<strong style="color: rgb(167, 133, 99);">5-</strong>&nbsp;Div y&ouml;n&uuml; değiştirme. (Rotate)    <br />
+<br />
+Bunlar &ccedil;oğu grafikerin sitesindeki divleri d&uuml;zenlerken sitesini g&uuml;zelleştirmek i&ccedil;in kullandığı hazır kodlardan ibarettir. Basit olmalarına rağmen kullanılışlarına g&ouml;re &ccedil;ok daha estetik bir site yapmanıza olanak sağlayacaktır. Uzun s&uuml;redir aklıma gelmemişti d&uuml;zg&uuml;n bir paylaşım yapmak sonunda tamamen bana ait bir anlatımla div &ouml;zellikleri Creative-Blog'ta. İsterseniz artık yavaş yavaş konu anlatına ge&ccedil;elim...<br />
+<br />
+<span style="color:#A78563;"><strong>Not:</strong></span> G&ouml;z&uuml;kmesini istediğiniz anlatımın &uuml;st&uuml;ne gelebilirsiniz.&nbsp;&nbsp;</p>
+<div class="menu_list" id="secondpane"><!--Code for menu starts here-->
+<p class="menu_head">Div g&ouml;lgelendirme (Shadow)</p>
+<div class="menu_body">
+<div id="taban">
+<div class="Konu-Baslik">A) 4 Koşeye G&ouml;lge Vermek</div>
+<br />
+Elimizde <span style="color: rgb(255, 102, 0);">#Shadow1</span> adlı bir divimiz olsun. <br />
+Bu divin yazılımı; <span style="color: rgb(255, 102, 0);">&lt;div id=&quot;Shadow1&quot;&gt;Yazı Gelecek&lt;/div&gt; </span><br />
+şeklinde olur buna aşağıdaki gibi g&ouml;lge vermek isterseniz aşağıdaki kodu css kodlamalarına eklemeniz yeterli olucaktır. Kodlardaki <span style="color: rgb(255, 102, 0);">#555</span> kısmını değiştirirseniz g&ouml;lgelendirmenin rengi değişir. Ayrıca pxlerle oynayıp g&ouml;lgeyi b&uuml;y&uuml;tebilir yada k&uuml;&ccedil;&uuml;ktebilirsiniz.<br />
+<div id="Shadow1">Shadow1</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Shadow1 {<br />
+-webkit-box-shadow: 0px 0px 8px 6px #555;<br />
+-moz-box-shadow: 0px 0px 8px 6px #555;<br />
+box-shadow: 0px 0px 8px 6px #555;<br />
+}</div>
+<br />
+<div class="Konu-Cizgi">.</div>
+<div class="Konu-Baslik">B) 1 Koşeye G&ouml;lge Vermek</div>
+<br />
+Bu seferde elimizde <span style="color: rgb(255, 102, 0);">#Shadow2</span> adlı bir divimiz olsun. Ve bununda sadece 1 k&ouml;şesine g&ouml;lge efekti verelim aşağıdaki &ouml;rnekteki gibi. Bu kodumuzda renk verdiğimiz alanları; <span style="color: rgb(255, 102, 0);">#555</span>, <span style="color: rgb(255, 102, 0);">#000</span> kısımlarını kendinize g&ouml;re d&uuml;zenliyeceksiniz. Ardından divinize renk boyut vs. gibi d&uuml;zenlemelerde yapabilirsiniz.<br />
+<div id="Shadow2">Shadow2</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Shadow2 {<br />
+-webkit-box-shadow: 0 0 0 4px #555, 0 8px 6px #000;<br />
+-moz-box-shadow: 0 0 0 4px #555 0 8px 6px #000;<br />
+box-shadow: 0 0 0 4px #555, 0 8px 6px #000;<br />
+}</div>
+</div>
+</div>
+<p class="menu_head">Div yuvarlaklaştırma (Radius)</p>
+<div class="menu_body">
+<div id="taban2">
+<div class="Konu-Baslik">A) 4 K&ouml;şeyi Yuvarlağımsı Yapmak</div>
+<br />
+Elimizde <span style="color: rgb(255, 102, 0);">#Radius1</span> divimiz olsun. Buna normal şekilde renk verip bıraktığımızda sivri kenarlı kare yada dikd&ouml;rtgen elde ederiz. Fakat biz bu sefer aşağıdaki &ouml;rnekteki yuvarlağımsı kenarlı bir div yapıcaz. Aşağıdaki css kodunu ekleyip renklemeyi kendinize g&ouml;re ayarlayın.<br />
+<div id="Radius1">Radius1</div>
+<br />
+<span style="color: rgb(0, 9, 0);"><span style="font-size: larger;">Css Kodu:</span></span><br />
+<div class="Kod">#Radius1 {<br />
+border-radius: 20px; /* Standart */<br />
+-moz-border-radius: 20px; /* Firefox */<br />
+-webkit-border-radius: 20px; /* Safari ve Chrome */<br />
+}</div>
+<br />
+<div class="Konu-Cizgi">.</div>
+<div class="Konu-Baslik">B) 2 K&ouml;şeyi Yuvarlağımsı Yapmak</div>
+<br />
+Bu seferde elimizde <span style="color: rgb(255, 102, 0);">#Radius2</span> adlı bir divimiz olsun. Biz bu sefer bunun her k&ouml;şesini değil sadece &uuml;st k&ouml;şelerini yuvarlağımsı yapıp altını olduğu gibi bırakıcaz diyelim bu seferde kodları aşağıdaki kullanmamız gerekir. Eğer sadece alt kısımlarını yuvarlağımsı yapıcaksak kodlartaki <span style="color: rgb(255, 102, 0);">&quot;top&quot;</span> kısımlarını <span style="color: rgb(255, 102, 0);">&quot;bottom&quot;</span> ile değiştirebilirsiniz.<br />
+<div id="Radius2">Radius2</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Radius2 {<br />
+border-top-right-radius: 20px;<br />
+border-top-left-radius: 20px;<br />
+-moz-border-radius-topright: 20px;<br />
+-moz-border-radius-topleft: 20px;<br />
+-webkit-border-top-right-radius: 20px;<br />
+-webkit-border-top-left-radius: 20px;<br />
+}</div>
+</div>
+</div>
+<p class="menu_head">Div saydamlaştırma (Opacity)</p>
+<div class="menu_body">
+<div id="taban3">
+<div class="Konu-Baslik">A) Direk Saydamlaştırma</div>
+<br />
+Elimizde <span style="color: rgb(255, 102, 0);">#Opacity1</span> divimiz olsun. Eğer biz bu divi siyah yapar isek kapkaranlık olur değilmi? Fakat opacity kodu ile bu divi saydamlaştırırsak gayet cam gibi saydam bir divimiz olur &ouml;rnekteki gibi. Aşağıdaki kodda rengi değiştirmek i&ccedil;in <span style="color: rgb(255, 102, 0);">#555</span> yazan alana kendi renk kodunuzu yazın. Opacity değerini d&uuml;ş&uuml;r&uuml;p arttırmak i&ccedil;in ise. <span style="color: rgb(255, 102, 0);">&quot;0.5&quot;</span> yazan değeri değiştirin. Eğere 5'i b&uuml;y&uuml;t&uuml;rseniz saydamlık azalır, k&uuml;&ccedil;&uuml;lt&uuml;rseniz saydamlık &ccedil;oğalır. Bunun dışında divinizin boyutlarını kendiniz ayarlayın.<br />
+<div id="Opacity1">Opacity1</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">Opacity1 {<br />
+background-color: #555;<br />
+opacity: 0.5;<br />
+}</div>
+<br />
+<div class="Konu-Cizgi">.</div>
+<div class="Konu-Baslik">B) &Uuml;st&uuml;ne Gelince Saydamlaştırma</div>
+<br />
+Bu seferki divimiz <span style="color: rgb(255, 102, 0);">#Opacity2</span> olsun. Bu divimiz diğerlerinden biraz farklılık yapmak istemiş. Ve sadece &uuml;st&uuml;ne gelindiğinde saydam olucak. Aşağıdaki kodda da g&ouml;r&uuml;ld&uuml;ğ&uuml; gibi 2 adımlı bir div olucak. <span style="color: rgb(255, 102, 0);">#Opacity2:hover</span> alanındaki; <span style="color: rgb(255, 102, 0);">&quot;Opacity:0.5&quot; </span>değerini değiştiririzseniz &uuml;st&uuml;ne gelindiğinde saydamlaşma oranını ayarlayabilirsiniz.<br />
+<div id="Opacity2">Opacity2</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Opacity2 {<br />
+background-color: #555;<br />
+}<br />
+<br />
+#Opacity2:hover {<br />
+background-color: #555;<br />
+Opacity: 0.5;<br />
+}</div>
+</div>
+</div>
+<p class="menu_head">Div zamanlama (Transition)</p>
+<div class="menu_body">
+<div id="taban4">
+<div class="Konu-Baslik">A) B&uuml;y&uuml;tme Zamanlaması</div>
+<br />
+Elimizde <span style="color: rgb(255, 102, 0);">#Transition1</span> adlı divimiz var. Biz bu divin &uuml;st&uuml;ne geldiğimizde biraz yavaş hareketlerle b&uuml;y&uuml;mesini istiyoruz. Bunun i&ccedil;in yeniden 2 aşamalı bi şekilde aşağıdaki koddaki gibi yapıcaz.<span style="color: rgb(255, 102, 0);">&quot;0.7&quot;</span> s&uuml;resi zamanlama salisesidir. Bunu istediğiniz zamanlamaya g&ouml;re değiştirebilirsiniz. <span style="color: rgb(255, 102, 0);">Scale(1.1) </span>ise b&uuml;y&uuml;me oranıdır ne kadar b&uuml;y&uuml;tmek isterseniz okadar sayıları b&uuml;y&uuml;lt&uuml;n. Bunların dışında <span style="color: rgb(255, 102, 0);">#555</span> divin rengidir bunuda değiştirebilirsiniz.<br />
+<div id="Transition1">Transition1</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Transition1{ <br />
+background-color: #555;<br />
+-webkit-transition: -webkit-transform 0.7s ease-in-out;<br />
+-moz-transition: -moz-transform 0.7s ease-in-out;<br />
+-ms-transition: -ms-transform 0.7s ease-in-out;<br />
+-o-transition: -o-transform 0.7s ease-in-out;<br />
+transition: transform 0.7s ease-in-out;<br />
+}<br />
+<br />
+#Transition1:hover {<br />
+background-color: #555;<br />
+-webkit-transform: scale(1.1);<br />
+-moz-transform: scale(1.1);<br />
+-o-transform: scale(1.1);<br />
+-ms-transform: scale(1.1);<br />
+transform: scale(1.1);<br />
+-webkit-transition: -webkit-transform 0.7s ease-in-out;<br />
+-moz-transition: -moz-transform 0.7s ease-in-out;<br />
+-ms-transition: -ms-transform 0.7s ease-in-out;<br />
+-o-transition: -o-transform 0.7s ease-in-out;<br />
+transition: transform 0.7s ease-in-out;<br />
+}</div>
+<br />
+<div class="Konu-Cizgi">.</div>
+<div class="Konu-Baslik">B) Renk Değiştirme Zamanlaması</div>
+<br />
+Bu seferki divimiz<span style="color: rgb(255, 102, 0);"> #Transition2</span>. Bu divimiz biraz renkli takılıyor aşağıdaki &ouml;rnekteki gibi &uuml;st&uuml;ne geldiğimizde yavaş yavaş renginin değişmesini istiyorsanız aşağıdaki kodu kullanın. <span style="color: rgb(255, 102, 0);">#555</span> divinizin ilk andaki rengidir. <span style="color: rgb(255, 102, 0);">#000</span> ise &uuml;st&uuml;ne geldiğiniz andaki rengidir. Bunları istediğiniz şekilde değiştirebilirsiniz. <span style="color: rgb(255, 102, 0);">&quot;0.7&quot;</span> &uuml;sttede s&ouml;ylediğim gibi zamanlama s&uuml;residir.<br />
+<div id="Transition2">Transition2</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Transition2 {<br />
+background-color: #555;<br />
+-webkit-transition: background-color 0.7s linear ;<br />
+-moz-transition: background-color 0.7s linear ;<br />
+-ms-transition: background-color 0.7s linear ;<br />
+-o-transition: background-color 0.7s linear ;<br />
+transition: background-color 0.7s linear ;<br />
+}<br />
+<br />
+#Transition2:hover {<br />
+background-color: #000;<br />
+-webkit-transition: background-color 0.7s linear ;<br />
+-moz-transition: background-color 0.7s linear ;<br />
+-ms-transition: background-color 0.7s linear ;<br />
+-o-transition: background-color 0.7s linear ;<br />
+transition: background-color 0.7s linear ;<br />
+}</div>
+</div>
+</div>
+<p class="menu_head">Div y&ouml;n&uuml; değiştirme (Rotate)</p>
+<div class="menu_body">
+<div id="taban5">
+<div class="Konu-Baslik">A) Direk Yamultulmuş</div>
+<br />
+Elimizde <span style="color: rgb(255, 102, 0);">#Rotate1</span> adlı bir div var. Hepimiz biliriz ki divler genelde kare ve dikd&ouml;rtgenken bile d&uuml;zg&uuml;n dururlar biz bunu biraz yamultalım dedik. Aşağıdaki kodu kullanarak divin y&ouml;n&uuml;n&uuml; değiştirebilirsiniz. <span style="color: rgb(255, 102, 0);">&quot;rotate(30deg)&quot;</span> d&ouml;nd&uuml;rme a&ccedil;ısıdır. 30'u b&uuml;y&uuml;lt&uuml;p k&uuml;&ccedil;&uuml;lt&uuml;p divinizi farklı farklı d&ouml;nd&uuml;rebilirsiniz. <span style="color: rgb(255, 102, 0);">#555</span> ise divinizin rengidir kendinize g&ouml;re ayarlayın.<br />
+<div id="Rotate1">Rotate1</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Rotate1 {<br />
+background-color: #555;<br />
+-moz-transform: rotate(45deg);<br />
+-ms-transform: rotate(45deg);<br />
+-o-transform: rotate(45deg);<br />
+-webkit-transform: rotate(45deg);<br />
+transform: rotate(45deg);<br />
+}</div>
+<br />
+<div class="Konu-Cizgi">.</div>
+<div class="Konu-Baslik">B) &Uuml;st&uuml;ne Gelince Yamulan</div>
+<br />
+Bu seferki divimiz <span style="color: rgb(255, 102, 0);">#Rotate2</span>. Bu divin &ouml;zelliği ise normalde &ccedil;ok d&uuml;zg&uuml;n duruyor gibi dursada &uuml;st&uuml;ne geldiğimiz anda yamulucak olması. Aşağı kodu css kodlarımıza eklerken; <span style="color: rgb(255, 102, 0);">&quot;rotate(45deg)&quot;</span> yukardada s&ouml;ylediğim gibi yamulma oranı. <span style="color: rgb(255, 102, 0);">&quot;0.7&quot;</span> ise yamulmanın ka&ccedil; saniyede ger&ccedil;ekleşmesini istediğimiz.<br />
+<div id="Rotate2">Rotate2</div>
+<br />
+<span style="font-size: larger;"><span style="color: rgb(153, 0, 0);">Css Kodu:</span></span><br />
+<div class="Kod">#Rotate2 {<br />
+background-color: #555;<br />
+-webkit-transition: -webkit-transform 0.7s ease-in-out;<br />
+-moz-transition: -moz-transform 0.7s ease-in-out;<br />
+-ms-transition: -ms-transform 0.7s ease-in-out;<br />
+-o-transition: -o-transform 0.7s ease-in-out;<br />
+transition: transform 0.7s ease-in-out;<br />
+}<br />
+<br />
+#Rotate2:hover {<br />
+background-color: #555;<br />
+-webkit-transition: -webkit-transform 0.7s ease-in-out;<br />
+-moz-transition: -moz-transform 0.7s ease-in-out;<br />
+-ms-transition: -ms-transform 0.7s ease-in-out;<br />
+-o-transition: -o-transform 0.7s ease-in-out;<br />
+transition: transform 0.7s ease-in-out;<br />
+-moz-transform: rotate(45deg);<br />
+-ms-transform: rotate(45deg);<br />
+-o-transform: rotate(45deg);<br />
+-webkit-transform: rotate(45deg);<br />
+transform: rotate(45deg);<br />
+}</div>
+</div>
+</div>
+</div>
+</div>
+<br />
+</div>
+</div>
+
+<nav>
+<div id="yanmenu">
+<ul>
+<li>
+<div class="titleyanmenu">Ana Menü</div>
+</li>
+	<li class="selected"><a href="index.html">Ana Sayfa</a></li>
+	<li><a href="iletisim.html">İletişim</a></li>
+	<li><a href="konuk-defteri.html">Ziyaretçi Defteri</a></li>
+	<li><a href="hakkimda.html">Hakkımda</a></li>
+<li>
+<div class="titleyanalt"></div>
+</li>
+<li>
+<div class="titleyanmenu">İkonlar</div>
+</li>
+	<li><a href="araba-ikonlari.html">Araba İkonları</a></li>
+	<li><a href="koltuk-ikonlari.html">Koltuk İkonları</a></li>
+	<li><a href="ev-ikonlari.html">Ev İkonları</a></li>
+	<li><a href="hayvan-ikonlari.html">Hayvan İkonları</a></li>
+	<li><a href="saat-ikonlari.html">Saat İkonları</a></li>
+	<li><a href="yaratik-ikonlari.html">Yaratık İkonları</a></li>
+	<li><a href="warner-bros-ikonlari.html">Warner Bros İkonları</a></li>
+	<li><a href="kitap-ikonlari.html">Kitap İkonları</a></li>
+	<li><a href="tavsan-ikonlari.html">Tavşan İkonları</a></li>
+	<li><a href="bilgisayar-ikonlari.html">Bilgisayar İkonları</a></li>
+	<li><a href="eski-ikonlar-1.html">Eski İkonlar</a></li>
+	<li><a href="tatil-ikonlari.html">Yaz Tatili İkonları</a></li>
+</ul>
+<div class="titleyanalt"></div>
+<div class="titleyanmenu">Reklam</div>
+<div id="Menu-Reklam">
+    <a target="_blank" href="iletisim.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Ust"></a> 
+     <a target="_blank" href="iletisim.html">
+     <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Ust"></a> 
+    <a target="_blank" href="iletisim.html">
+    <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Alt"></a> 
+     <a target="_blank" href="iletisim.html">
+     <img src="http://img.webme.com/pic/c/creative-blog/cb-125x125.png" alt="Reklam" width="100" height="100" class="Menu-Reklam-Alt"></a></div>
+<div class="titleyanalt"></div>
+<div class="block png"></div>
+</div>
+</nav>
+</div>
+</section>
+
+<div id="RD-4"></div>
+</div>
+
+<footer>
+<div id="Alt-Baslik">
+<div id="Alt-Baslik-960">
+<div id="Alt-Baslik-Sol"></div>
+<div id="Alt-Baslik-Sag"></div>
+</div>
+</div>
+<div id="Alt-Tahta">
+<div id="Alt-Alan">
+<div id="Alt-Takas">
+<ul id="Sol-Takas">
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+</ul>
+<ul id="Sag-Takas">
+	<li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+    <li><a href="iletisim.html">Siteni Ekle</a></li>
+</ul>
+</div>
+<div id="Alt-Reklam">
+  <div id="Alt-Reklam-Alan"><a href="iletisim.html"><img width="468" height="60" alt="Reklam" src="http://img.webme.com/pic/c/creative-blog/ght-reklam-buyuk.png"></a></div>
+  <div id="Alt-Agac"></div>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
