@@ -1,1062 +1,1451 @@
 body {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Background.png);
-	margin:0;
-        padding:0;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Background.png);
+    margin: 0;
+    padding: 0;
 }
 
 a {
-	text-decoration:none;
-	color:#835130;	
+    text-decoration: none;
+    color: #835130;
 }
 
 a:hover {
-	color:#84b221;
+    color: #84b221;
 }
+
 #Ust-Tahta {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/ght-intro-background.png);
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 181px;
-	box-shadow: 0px 6px 6px 3px #a29a85;
-	z-index: -10;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/ght-intro-background.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 181px;
+    box-shadow: 0px 6px 6px 3px #a29a85;
+    z-index: -10;
 }
+
 #Logo-Taban {
-	width: 328px;
-	height: 100px;
-	position: relative;
-	left: 68px;
-	top: 56px;
+    width: 328px;
+    height: 100px;
+    position: relative;
+    left: 68px;
+    top: 56px;
 }
+
 #Logo {
-	width: 328px;
-	height: 100px;
-	position: relative;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Logo.png);
+    width: 328px;
+    height: 100px;
+    position: relative;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Logo.png);
 }
+
 #Logo:hover {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/Rd-Logohv.png);
+    background-image: url(http://img.webme.com/pic/c/creative-blog/Rd-Logohv.png);
 }
+
 #All-Design {
-	margin-top: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 960px;
-	z-index: -1;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    z-index: -1;
 }
+
 #RD-1 {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-1.png);
-	height: 236px;
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-1.png);
+    height: 236px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 #RD-2 {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-2.png);
-	height: 46px;
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-2.png);
+    height: 46px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 #RD-3 {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-3.png);
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	float: left;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-3.png);
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
 }
+
 #RD-4 {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-4.png);
-	height: 52px;
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	float: left;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-4.png);
+    height: 52px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
 }
 
 /* Classic Slideshow Bölümü */
 #Raf-Slideshow {
-	width: 911px;
-	height: 32px;
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-SlideshowTahta.png);
-	left: 2px;
+    width: 911px;
+    height: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-SlideshowTahta.png);
+    left: 2px;
 }
 
 #broder {
-	width:911px;
-	height:300px;
-	position:relative;
-	margin-right: auto;
-	margin-left: auto;
+    width: 911px;
+    height: 300px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 #slide {
-	width:911px;
-	height:300px;
-	overflow:hidden;
-	position:absolute;
-	z-index:2;
-    margin-left:2px;
+    width: 911px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    margin-left: 2px;
 }
 
 
 #slide a {
-	text-decoration:none;
-	display:block;
-	width:911px;
-	height:300px;
-	position:absolute;
-	left: 911px;
-	margin-right: 25px;
-} 
-#slide a img {
-	display:block; 
-	border:0;
+    text-decoration: none;
+    display: block;
+    width: 911px;
+    height: 300px;
+    position: absolute;
+    left: 911px;
+    margin-right: 25px;
 }
+
+#slide a img {
+    display: block;
+    border: 0;
+}
+
 #title {
-	width:131px; 
-	height:132px; 
-	position:absolute; 
-	left:5px; 
-	top:-30px;}
+    width: 131px;
+    height: 132px;
+    position: absolute;
+    left: 5px;
+    top: -30px;
+}
 
 #previous b {
-	display:none;
+    display: none;
 }
 
 #previous {
-	width:125px;
-	height:125px;
-	position:absolute;
-	top:85px;
-	cursor:pointer;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Slideshow-Geri.png);
-	transition: transform 0.3s ease-in-out;
-	left: -20px;
-	z-index: 5;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 85px;
+    cursor: pointer;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Slideshow-Geri.png);
+    transition: transform 0.3s ease-in-out;
+    left: -20px;
+    z-index: 5;
 }
+
 #previous:hover {
-	transform: scale(1.1);
+    transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 
 }
+
 #next b {
-	display:none;
+    display: none;
 }
+
 #next {
-	width:125px;
-	height:125px;
-	position:absolute;
-	left:810px;
-	top:85px;
-	cursor:pointer;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Slideshow-ileri.png);
-	transition: transform 0.3s ease-in-out;
-	z-index: 5;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 810px;
+    top: 85px;
+    cursor: pointer;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Slideshow-ileri.png);
+    transition: transform 0.3s ease-in-out;
+    z-index: 5;
 }
+
 #next:hover {
-	transform: scale(1.1);
+    transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 
 }
+
 #buttons {
-	position:absolute;
-	left:410px;
-	top:350px;
-	z-index: 999999;
-	margin-right: auto;
-	margin-left: auto;
-	display: none;
+    position: absolute;
+    left: 410px;
+    top: 350px;
+    z-index: 999999;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
 }
+
 #buttons div {
-	width:20px;
-	height:20px;
-	float:left;
-	margin-right:5px;
-	display:inline;
-	background-image: url(http://img.webme.com/pic/c/creative-fun/ght-leke.png);
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    display: inline;
+    background-image: url(http://img.webme.com/pic/c/creative-fun/ght-leke.png);
 }
+
 #buttons div b {
-	display:block;
-	width:20px;
-	height:20px;
-	line-height:19px;
-	font-family:arial, sans-serif;
-	font-size:11px;
-	color:#ffffff;
-	text-align:center;
-	cursor:pointer;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
 }
+
 img#loading {
-	position:absolute; 
-	left:240px; 
-	top:170px;
+    position: absolute;
+    left: 240px;
+    top: 170px;
 }
+
 #Ana-Alan {
-	margin-top: 10px;
-	width: 960px;
+    margin-top: 10px;
+    width: 960px;
 }
+
 #Content {
-	margin-left: 50px;
-	width: 620px;
-	float: left;
-	font-family: Tahoma, Verdana;
-	font-size: 15px;
-	text-align: center;
+    margin-left: 50px;
+    width: 620px;
+    float: left;
+    font-family: Tahoma, Verdana;
+    font-size: 15px;
+    text-align: center;
 }
+
 table {
-	margin-right:auto;
-	margin-left:auto;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 h2 {
-	font-family: Tahoma, Verdana;
-	color: #6D270C;
-	text-decoration: underline;
+    font-family: Tahoma, Verdana;
+    color: #6D270C;
+    text-decoration: underline;
 }
+
 /* Blog Kutulari - Creative-Blog.tr.gg */
 .RD-Blog {
-	width: 480px;
-	height: 170px;
-	padding-right: 10px;
-	padding-left: 10px;
-	border: 2px solid #835130;
-	border-radius: 5px; /* Standart */
-	transition: all 0.5s ease-in-out 0s;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
+    width: 480px;
+    height: 170px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid #835130;
+    border-radius: 5px; /* Standart */
+    transition: all 0.5s ease-in-out 0s;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
+
 .RD-Resim {
-	float: left;
-	height: 100px;
-	width: 100px;
-	margin-top: 20px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
 }
+
 .Blog-Baslik {
-	height: 20px;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #835130;
-	border-right-width: 2px;
-	border-left-width: 2px;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-right-color: #835130;
-	border-left-color: #835130;
-	box-shadow: 0px 1px 1px 0px #000000;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	font-size: 16px;
-	border-radius: 0px 0px 5px 5px; /* Standart */
-	color: #4a4131;
-	text-align: center;
-	font-family: "Lucida Sans Unicode";
-	width: 450px;
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
+    height: 20px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #835130;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #835130;
+    border-left-color: #835130;
+    box-shadow: 0px 1px 1px 0px #000000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    border-radius: 0px 0px 5px 5px; /* Standart */
+    color: #4a4131;
+    text-align: center;
+    font-family: "Lucida Sans Unicode";
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }
+
 .Blog-Nokta-Left {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/ght-nokta.png);
-	height: 20px;
-	width: 20px;
-	position: absolute;
-	left: 5px;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/ght-nokta.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 5px;
 }
+
 .Blog-Nokta-Right {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/ght-nokta.png);
-	height: 20px;
-	width: 20px;
-	position: absolute;
-	right: 5px;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/ght-nokta.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
 }
+
 .Blog-Baslik-Yazi {
-	width: 400px;
-	margin-right: auto;
-	margin-left: auto;
-	position: absolute;
-	left: 0px;
-	right: 0px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
 }
+
 .Blog-Resim {
-	height: 100px;
-	width: 100px;
-	border: 5px solid #FFFFFE;
-	border-radius: 10px; /* Standart */
-	background-color: #FFF;
-	margin-top: 15px;
-	margin-left: 5px;
-	float: left;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #FFFFFE;
+    border-radius: 10px; /* Standart */
+    background-color: #FFF;
+    margin-top: 15px;
+    margin-left: 5px;
+    float: left;
 }
+
 .Blog-Yazi {
-	font-size: 13px;
-	color: #4a4131;
-	font-family: Tahoma, Verdana;
-	float: left;
-	height: 105px;
-	width: 350px;
-	margin-top: 18px;
-	margin-left: 10px;
-	text-align: left;
+    font-size: 13px;
+    color: #4a4131;
+    font-family: Tahoma, Verdana;
+    float: left;
+    height: 105px;
+    width: 350px;
+    margin-top: 18px;
+    margin-left: 10px;
+    text-align: left;
 }
+
 .Blog-Devam a {
-	width: 120px;
-	text-align: center;
-	position: absolute;
-	height: 20px;
-	font-size: 15px;
-	font-family: "Lucida Sans Unicode";
-	border: 2px solid #835230;
-	z-index: 1;
-	background-color: #835130;
-	color: #FFF;
-	border-radius: 5px; /* Standart */
-	text-decoration: none;
-	transition: all 0.5s ease-in-out 0s;
-	bottom: -13px;
-	right: 20px;
+    width: 120px;
+    text-align: center;
+    position: absolute;
+    height: 20px;
+    font-size: 15px;
+    font-family: "Lucida Sans Unicode";
+    border: 2px solid #835230;
+    z-index: 1;
+    background-color: #835130;
+    color: #FFF;
+    border-radius: 5px; /* Standart */
+    text-decoration: none;
+    transition: all 0.5s ease-in-out 0s;
+    bottom: -13px;
+    right: 20px;
 }
 
 
 .Blog-Devam a:hover {
-	width: 120px;
-	text-align: center;
-	height: 20px;
-	font-size: 15px;
-	font-family: "Lucida Sans Unicode";
-	border: 2px solid #835230;
-	z-index: 1;
-	background-color: #835130;
-	color: #FFF;
-	border-radius: 5px; /* Standart */
-	text-decoration: none;
-	transition: all 0.5s ease-in-out 0s;
-	box-shadow: 0px 0px 3px 2px #645842;
+    width: 120px;
+    text-align: center;
+    height: 20px;
+    font-size: 15px;
+    font-family: "Lucida Sans Unicode";
+    border: 2px solid #835230;
+    z-index: 1;
+    background-color: #835130;
+    color: #FFF;
+    border-radius: 5px; /* Standart */
+    text-decoration: none;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 0px 0px 3px 2px #645842;
 
 }
+
 /* Blog Kutulari - Creative-Blog.tr.gg */
 
 /* Sayfa Numaralandýrma - Creative-Blog.tr.gg */
 #RD-Sayfa-Num {
-	width: 500px;
-	margin-right: auto;
-	margin-left: auto;
-	float: none;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
 }
 
 #RD-Sayfa-Num ul {
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 #RD-Sayfa-Num ul li {
-	float: left;
-	margin-right: 3px;
-	margin-left: 3px;
+    float: left;
+    margin-right: 3px;
+    margin-left: 3px;
 }
+
 #RD-Sayfa-Num ul li a {
-	display: block;
-	width: 45px;
-	text-align: center;
-	text-decoration: none;
-	font-family: Tahoma;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Sayfanum.png);
-	color: #FFF;
-	font-size: 18px;
-	height: 45px;
-	line-height: 45px;
-	font-weight: bolder;
+    display: block;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tahoma;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Sayfanum.png);
+    color: #FFF;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    font-weight: bolder;
 }
+
 #RD-Sayfa-Num ul li a:hover {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Sayfanumhv.png);
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Sayfanumhv.png);
 }
+
 /* Sayfa Numaralandýrma - Creative-Blog.tr.gg */
 
 /* Yanmenü Bölünü Baþlangýç - Creative-Blog.tr.gg */
 
 .titleyanalt {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Yanmenu-Alt.png);
-	height: 24px;
-	width: 225px;
-	margin-left: 1px;
-	margin-top: -5px;
-	margin-bottom: 25px;
-	text-align: center;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Yanmenu-Alt.png);
+    height: 24px;
+    width: 225px;
+    margin-left: 1px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .titleyanmenu {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Yanmenu-Ust.png);
-	height: 27px;
-	width: 225px;
-	margin-top: 15px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #FFF;
-	font-size: 16px;
-	margin-left: 1px;
-	line-height: 27px;
-	text-align: center;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Yanmenu-Ust.png);
+    height: 27px;
+    width: 225px;
+    margin-top: 15px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    margin-left: 1px;
+    line-height: 27px;
+    text-align: center;
 }
 
 .titleyankay {
-	width: 219px;
+    width: 219px;
 }
-	
+
 #yanmenu {
-	font-family: verdana;
-	font-size: 12px;
-	position: relative;
-	width: 224px;
-	margin-top: 0;
-	margin-right: 40px;
-	margin-bottom: 0;
-	float: right;
+    font-family: verdana;
+    font-size: 12px;
+    position: relative;
+    width: 224px;
+    margin-top: 0;
+    margin-right: 40px;
+    margin-bottom: 0;
+    float: right;
 }
-	
+
 #yanmenu ul {
-	/* remove list style */
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	/* set the layer position */
-	position: relative;
-	z-index: 5;
-	text-align: center;
+    /* remove list style */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* set the layer position */
+    position: relative;
+    z-index: 5;
+    text-align: center;
 }
-	
+
 #yanmenu li {
-	cursor:pointer;
-	background-position: 0 0;
+    cursor: pointer;
+    background-position: 0 0;
 }
-		
+
 #yanmenu li a {
-	text-decoration: none;
-	color: #835130;
-	display: block;
-	padding: 5px;
-	border: thin solid #835130;
-	margin-bottom: 5px;
-	width: 213px;
-	margin-left: 1px;
-	font-size: 14px;
-	font-family: Tahoma, Verdana;
+    text-decoration: none;
+    color: #835130;
+    display: block;
+    padding: 5px;
+    border: thin solid #835130;
+    margin-bottom: 5px;
+    width: 213px;
+    margin-left: 1px;
+    font-size: 14px;
+    font-family: Tahoma, Verdana;
 }
 
 #yanmenu li a:hover {
-	background-color: #e1d6b7;
+    background-color: #e1d6b7;
 }
-	
-	
+
+
 #yanmenu .block {
-	/* allow javascript to move the block */
-	position: absolute;
-	top: 0;
-	/* set the left position */
-	left: 180px;
-	/* display above the #yanmenu */
-	z-index: 10;
-	width: 39px;
-	cursor: pointer;
-	padding-top: 12px;
-	padding-right: 4px;
-	padding-bottom: 4px;
-	padding-left: 12px;
-	background-color: transparent;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/darrow.png);
-	background-repeat: no-repeat;
-	background-position: right 17px;
+    /* allow javascript to move the block */
+    position: absolute;
+    top: 0;
+    /* set the left position */
+    left: 180px;
+    /* display above the #yanmenu */
+    z-index: 10;
+    width: 39px;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    background-color: transparent;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/darrow.png);
+    background-repeat: no-repeat;
+    background-position: right 17px;
 }
 
 #Menu-Reklam a img {
-	opacity: 0.7;
-	border: thin solid #835130;
-	margin-left: 3px;
-	margin-right: 3px;
-	transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    opacity: 0.7;
+    border: thin solid #835130;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
+
 #Menu-Reklam a img:hover {
-	opacity: 1;
-	transform: scale(1.1);
-	transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    opacity: 1;
+    transform: scale(1.1);
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
+
 .Menu-Reklam-Ust {
-	margin-bottom: 5px;
-	margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
+
 .Menu-Reklam-Alt {
-	margin-bottom: 7px;
+    margin-bottom: 7px;
 }
+
 #Menu-Reklam {
-	margin-left: 3px;
+    margin-left: 3px;
 }
+
 /* Yanmenü Bitiþ - Creative-Blog.tr.gg */
 
 /* Classic Slideshow Bölümü */
 
 #Alt-Baslik {
-	width: 100%;
-	height: 40px;
-	margin-top: 70px;
-	float: left;
-	margin-bottom: 0px;
+    width: 100%;
+    height: 40px;
+    margin-top: 70px;
+    float: left;
+    margin-bottom: 0px;
 }
+
 #Alt-Baslik-960 {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 40px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
 }
+
 #Alt-Baslik-Sol {
-	float: left;
-	height: 40px;
-	margin-left: 18%;
-	width: 150px;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Takas.png);
+    float: left;
+    height: 40px;
+    margin-left: 18%;
+    width: 150px;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Takas.png);
 }
+
 #Alt-Baslik-Sag {
-	float: right;
-	height: 40px;
-	width: 150px;
-	margin-right: 18%;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Reklam.png);
+    float: right;
+    height: 40px;
+    width: 150px;
+    margin-right: 18%;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Reklam.png);
 }
+
 #Alt-Tahta {
-	height: 135px;
-	width: 100%;
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Tahta.png);
-	left: 0px;
-	right: 0px;
-	bottom: 0px !important;
-	;
-	float: left;
-	z-index: -2;
-	position: relative;
+    height: 135px;
+    width: 100%;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Tahta.png);
+    left: 0px;
+    right: 0px;
+    bottom: 0px !important;;
+    float: left;
+    z-index: -2;
+    position: relative;
 }
+
 #Alt-Alan {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 115px;
-	padding-top: 8px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 115px;
+    padding-top: 8px;
 }
+
 #Alt-Takas {
-	float: left;
-	width: 42%;
-	padding-right: 2%;
-	padding-left: 4%;
+    float: left;
+    width: 42%;
+    padding-right: 2%;
+    padding-left: 4%;
 }
+
 #Alt-Takas ul {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
+
 #Alt-Takas ul li {
-	margin-bottom: 4px;
-	width: 170px;
+    margin-bottom: 4px;
+    width: 170px;
 }
+
 #Alt-Takas ul li a {
-	text-decoration: none;
-	color: #F4EFEB;
-	font-family: Tahoma;
-	display: block;
-	text-align: center;
-	padding-top: 1.5px;
-	padding-bottom: 1.5px;
-	font-weight: bolder;
-	line-height: 35px;
+    text-decoration: none;
+    color: #F4EFEB;
+    font-family: Tahoma;
+    display: block;
+    text-align: center;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    font-weight: bolder;
+    line-height: 35px;
 }
+
 #Alt-Takas ul li a:hover {
-	text-decoration: underline;
-	font-weight: bolder;
+    text-decoration: underline;
+    font-weight: bolder;
 }
+
 #Sol-Takas {
-	float:left;	
+    float: left;
 }
+
 #Sag-Takas {
-	float:right;
+    float: right;
 }
+
 #Alt-Reklam {
-	float: right;
-	width: 52%;
-	position: relative;
-	height: 100%;
+    float: right;
+    width: 52%;
+    position: relative;
+    height: 100%;
 }
+
 #Alt-Reklam-Alan {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Sponsor.png);
-	height: 86px;
-	width: 480px;
-	margin-top: 13px;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Sponsor.png);
+    height: 86px;
+    width: 480px;
+    margin-top: 13px;
 }
+
 #Alt-Reklam-Alan a img {
-	margin-top: 19px;
-	margin-left: 7px;
-	opacity: 0.5;
-	transition: opacity 0.7s ease-in-out;
+    margin-top: 19px;
+    margin-left: 7px;
+    opacity: 0.5;
+    transition: opacity 0.7s ease-in-out;
 }
+
 #Alt-Reklam-Alan a img:hover {
-	opacity: 1;
-	transition: opacity 0.7s ease-in-out;
+    opacity: 1;
+    transition: opacity 0.7s ease-in-out;
 }
+
 #Alt-Agac {
-	background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Agac.png);
-	height: 271px;
-	width: 151px;
-	text-align: right;
-	position: absolute;
-	bottom: -11px;
-	z-index: 1;
-	right: -20px;
+    background-image: url(http://img.webme.com/pic/c/creative-blog/RD-Alt-Agac.png);
+    height: 271px;
+    width: 151px;
+    text-align: right;
+    position: absolute;
+    bottom: -11px;
+    z-index: 1;
+    right: -20px;
 }
 
 /* Kutu Þekillendirmeleri */
 #kommentartext {
-	border: 2px solid #835130;
-	width: 100px;
+    border: 2px solid #835130;
+    width: 100px;
     background-color: #FFF;
 }
 
-input[type="text"]  {
+input[type="text"] {
 
-	font-family : "Tahoma,Verdana";
-	font-size : 11px;
+    font-family: "Tahoma,Verdana";
+    font-size: 11px;
 
-	font-weight : normal;
-	border : 2px solid #835130;
-	background-color: #FFF;
-} 
+    font-weight: normal;
+    border: 2px solid #835130;
+    background-color: #FFF;
+}
 
 input[type="submit"] {
-	cursor : pointer;
-	font-family : "Tahoma,Verdana";
-	font-size : 12px;
-	font-weight : normal;
-	border : 1px solid #835130;
-	background : #9e876e url(http://img.webme.com/pic/d/denenmek/sekil-1.png) repeat-x top;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #fff;
-} 
+    cursor: pointer;
+    font-family: "Tahoma,Verdana";
+    font-size: 12px;
+    font-weight: normal;
+    border: 1px solid #835130;
+    background: #9e876e url(http://img.webme.com/pic/d/denenmek/sekil-1.png) repeat-x top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
 
 textarea {
-	font-family : "Tahoma,Verdana";
-	font-size : 11px;
-	font-weight : normal;
-	color : #4a4131;
-	border : 2px solid #835130;
-	background-color: #e1d6b7;
-} 
+    font-family: "Tahoma,Verdana";
+    font-size: 11px;
+    font-weight: normal;
+    color: #4a4131;
+    border: 2px solid #835130;
+    background-color: #e1d6b7;
+}
+
 /* Kutu Þekillendirmeleri */
 
 
 /* Light Box Baþla */
 
-	div.pp_default .pp_top,
-	div.pp_default .pp_top .pp_middle,
-	div.pp_default .pp_top .pp_left,
-	div.pp_default .pp_top .pp_right,
-	div.pp_default .pp_bottom,
-	div.pp_default .pp_bottom .pp_left,
-	div.pp_default .pp_bottom .pp_middle,
-	div.pp_default .pp_bottom .pp_right { height: 13px; }
-	
-	div.pp_default .pp_top .pp_left { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -78px -93px no-repeat; } /* Top left corner */
-	div.pp_default .pp_top .pp_middle { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_x.png) top left repeat-x; } /* Top pattern/color */
-	div.pp_default .pp_top .pp_right { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -112px -93px no-repeat; } /* Top right corner */
-	
-	div.pp_default .pp_content .ppt { color: #f8f8f8; }
-	div.pp_default .pp_content_container .pp_left { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_y.png) -7px 0 repeat-y; padding-left: 13px; }
-	div.pp_default .pp_content_container .pp_right { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_y.png) top right repeat-y; padding-right: 13px; }
-	div.pp_default .pp_content { background-color: #eee8da; } /* Content background */
-	div.pp_default .pp_next:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_next.png) center right  no-repeat; cursor: pointer; } /* Next button */
-	div.pp_default .pp_previous:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_prev.png) center left no-repeat; cursor: pointer; } /* Previous button */
-	div.pp_default .pp_expand { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -29px no-repeat; cursor: pointer; width: 28px; height: 28px; } /* Expand button */
-	div.pp_default .pp_expand:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -56px no-repeat; cursor: pointer; } /* Expand button hover */
-	div.pp_default .pp_contract { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -84px no-repeat; cursor: pointer; width: 28px; height: 28px; } /* Contract button */
-	div.pp_default .pp_contract:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -113px no-repeat; cursor: pointer; } /* Contract button hover */
-	div.pp_default .pp_close { width: 30px; height: 30px; background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 2px 1px no-repeat; cursor: pointer; } /* Close button */
-	div.pp_default #pp_full_res .pp_inline { color: #000; } 
-	div.pp_default .pp_gallery ul li a { background: url(http://img.webme.com/pic/c/creative-blog/v1-default_thumb.png) center center #f8f8f8; border:1px solid #aaa; }
-	div.pp_default .pp_gallery ul li a:hover,
-	div.pp_default .pp_gallery ul li.selected a { border-color: #fff; }
+div.pp_default .pp_top,
+div.pp_default .pp_top .pp_middle,
+div.pp_default .pp_top .pp_left,
+div.pp_default .pp_top .pp_right,
+div.pp_default .pp_bottom,
+div.pp_default .pp_bottom .pp_left,
+div.pp_default .pp_bottom .pp_middle,
+div.pp_default .pp_bottom .pp_right {
+    height: 13px;
+}
 
-	div.pp_default .pp_gallery a.pp_arrow_previous,
-	div.pp_default .pp_gallery a.pp_arrow_next { position: static; left: auto; }
-	div.pp_default .pp_nav .pp_play,
-	div.pp_default .pp_nav .pp_pause { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -51px 1px no-repeat; height:30px; width:30px; }
-	div.pp_default .pp_nav .pp_pause { background-position: -51px -29px; }
-	div.pp_default .pp_details { position: relative; }
-	div.pp_default a.pp_arrow_previous,
-	div.pp_default a.pp_arrow_next { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -31px -3px no-repeat; height: 20px; margin: 4px 0 0 0; width: 20px; }
-	div.pp_default a.pp_arrow_next { left: 52px; background-position: -82px -3px; } /* The next arrow in the bottom nav */
-	div.pp_default .pp_content_container .pp_details { margin-top: 5px; }
-	div.pp_default .pp_nav { clear: none; height: 30px; width: 105px; position: relative; }
-	div.pp_default .pp_nav .currentTextHolder{ font-family: Georgia; font-style: italic; color:#999; font-size: 11px; left: 75px; line-height: 25px; margin: 0; padding: 0 0 0 10px; position: absolute; top: 2px; }
-	
-	div.pp_default .pp_close:hover, div.pp_default .pp_nav .pp_play:hover, div.pp_default .pp_nav .pp_pause:hover, div.pp_default .pp_arrow_next:hover, div.pp_default .pp_arrow_previous:hover { opacity:0.7; }
+div.pp_default .pp_top .pp_left {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -78px -93px no-repeat;
+}
 
-	div.pp_default .pp_description{ font-size: 11px; font-weight: bold; line-height: 14px; margin: 5px 50px 5px 0; }
+/* Top left corner */
+div.pp_default .pp_top .pp_middle {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_x.png) top left repeat-x;
+}
 
-	div.pp_default .pp_bottom .pp_left { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -78px -127px no-repeat; } /* Bottom left corner */
-	div.pp_default .pp_bottom .pp_middle { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_x.png) bottom left repeat-x; } /* Bottom pattern/color */
-	div.pp_default .pp_bottom .pp_right { background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -112px -127px no-repeat; } /* Bottom right corner */
+/* Top pattern/color */
+div.pp_default .pp_top .pp_right {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -112px -93px no-repeat;
+}
 
-	div.pp_default .pp_loaderIcon { background: url(http://img.webme.com/pic/c/creative-blog/v1-loaderd.gif) center center no-repeat; } /* Loader icon */
+/* Top right corner */
+
+div.pp_default .pp_content .ppt {
+    color: #f8f8f8;
+}
+
+div.pp_default .pp_content_container .pp_left {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_y.png) -7px 0 repeat-y;
+    padding-left: 13px;
+}
+
+div.pp_default .pp_content_container .pp_right {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_y.png) top right repeat-y;
+    padding-right: 13px;
+}
+
+div.pp_default .pp_content {
+    background-color: #eee8da;
+}
+
+/* Content background */
+div.pp_default .pp_next:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_next.png) center right no-repeat;
+    cursor: pointer;
+}
+
+/* Next button */
+div.pp_default .pp_previous:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_prev.png) center left no-repeat;
+    cursor: pointer;
+}
+
+/* Previous button */
+div.pp_default .pp_expand {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -29px no-repeat;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+/* Expand button */
+div.pp_default .pp_expand:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -56px no-repeat;
+    cursor: pointer;
+}
+
+/* Expand button hover */
+div.pp_default .pp_contract {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -84px no-repeat;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+/* Contract button */
+div.pp_default .pp_contract:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 0 -113px no-repeat;
+    cursor: pointer;
+}
+
+/* Contract button hover */
+div.pp_default .pp_close {
+    width: 30px;
+    height: 30px;
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) 2px 1px no-repeat;
+    cursor: pointer;
+}
+
+/* Close button */
+div.pp_default #pp_full_res .pp_inline {
+    color: #000;
+}
+
+div.pp_default .pp_gallery ul li a {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-default_thumb.png) center center #f8f8f8;
+    border: 1px solid #aaa;
+}
+
+div.pp_default .pp_gallery ul li a:hover,
+div.pp_default .pp_gallery ul li.selected a {
+    border-color: #fff;
+}
+
+div.pp_default .pp_gallery a.pp_arrow_previous,
+div.pp_default .pp_gallery a.pp_arrow_next {
+    position: static;
+    left: auto;
+}
+
+div.pp_default .pp_nav .pp_play,
+div.pp_default .pp_nav .pp_pause {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -51px 1px no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+div.pp_default .pp_nav .pp_pause {
+    background-position: -51px -29px;
+}
+
+div.pp_default .pp_details {
+    position: relative;
+}
+
+div.pp_default a.pp_arrow_previous,
+div.pp_default a.pp_arrow_next {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -31px -3px no-repeat;
+    height: 20px;
+    margin: 4px 0 0 0;
+    width: 20px;
+}
+
+div.pp_default a.pp_arrow_next {
+    left: 52px;
+    background-position: -82px -3px;
+}
+
+/* The next arrow in the bottom nav */
+div.pp_default .pp_content_container .pp_details {
+    margin-top: 5px;
+}
+
+div.pp_default .pp_nav {
+    clear: none;
+    height: 30px;
+    width: 105px;
+    position: relative;
+}
+
+div.pp_default .pp_nav .currentTextHolder {
+    font-family: Georgia;
+    font-style: italic;
+    color: #999;
+    font-size: 11px;
+    left: 75px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    position: absolute;
+    top: 2px;
+}
+
+div.pp_default .pp_close:hover, div.pp_default .pp_nav .pp_play:hover, div.pp_default .pp_nav .pp_pause:hover, div.pp_default .pp_arrow_next:hover, div.pp_default .pp_arrow_previous:hover {
+    opacity: 0.7;
+}
+
+div.pp_default .pp_description {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 5px 50px 5px 0;
+}
+
+div.pp_default .pp_bottom .pp_left {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -78px -127px no-repeat;
+}
+
+/* Bottom left corner */
+div.pp_default .pp_bottom .pp_middle {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprite_x.png) bottom left repeat-x;
+}
+
+/* Bottom pattern/color */
+div.pp_default .pp_bottom .pp_right {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-sprited.png) -112px -127px no-repeat;
+}
+
+/* Bottom right corner */
+
+div.pp_default .pp_loaderIcon {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-loaderd.gif) center center no-repeat;
+}
+
+/* Loader icon */
 
 
-	/* ----------------------------------
-		Facebook style Theme
-	----------------------------------- */
-	
-	div.facebook .pp_top .pp_left { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -88px -53px no-repeat; } /* Top left corner */
-	div.facebook .pp_top .pp_middle { background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatterntop.png) top left repeat-x; } /* Top pattern/color */
-	div.facebook .pp_top .pp_right { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -110px -53px no-repeat; } /* Top right corner */
-	
-	div.facebook .pp_content .ppt { color: #000; }
-	div.facebook .pp_content_container .pp_left { background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatternleft.png) top left repeat-y; } /* Content background */
-	div.facebook .pp_content_container .pp_right { background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatternright.png) top right repeat-y; } /* Content background */
-	div.facebook .pp_content { background: #eee8da; } /* Content background */
-	div.facebook .pp_expand { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -31px -26px no-repeat; cursor: pointer; } /* Expand button */
-	div.facebook .pp_expand:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -31px -47px no-repeat; cursor: pointer; } /* Expand button hover */
-	div.facebook .pp_contract { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) 0 -26px no-repeat; cursor: pointer; } /* Contract button */
-	div.facebook .pp_contract:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) 0 -47px no-repeat; cursor: pointer; } /* Contract button hover */
-	div.facebook .pp_close { width: 22px; height: 22px; background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
-	div.facebook .pp_details { position: relative; }
-	div.facebook .pp_description { margin: 0 37px 0 0; }
-	div.facebook #pp_full_res .pp_inline { color: #000; } 
-	div.facebook .pp_loaderIcon { background: url(http://img.webme.com/pic/c/creative-blog/v1-loaderl.gif) center center no-repeat; } /* Loader icon */
-	
-	div.facebook .pp_arrow_previous { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) 0 -71px no-repeat; height: 22px; margin-top: 0; width: 22px; } /* The previous arrow in the bottom nav */
-		div.facebook .pp_arrow_previous.disabled { background-position: 0 -96px; cursor: default; }
-	div.facebook .pp_arrow_next { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -32px -71px no-repeat; height: 22px; margin-top: 0; width: 22px; } /* The next arrow in the bottom nav */
-		div.facebook .pp_arrow_next.disabled { background-position: -32px -96px; cursor: default; }
-	div.facebook .pp_nav { margin-top: 0; }
-	div.facebook .pp_nav p { font-size: 15px; padding: 0 3px 0 4px; }
-	div.facebook .pp_nav .pp_play { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -1px -123px no-repeat; height: 22px; width: 22px; }
-	div.facebook .pp_nav .pp_pause { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -32px -123px no-repeat; height: 22px; width: 22px; }
-	
-	div.facebook .pp_next:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-btnnextf.png) center right no-repeat; cursor: pointer; } /* Next button */
-	div.facebook .pp_previous:hover { background: url(http://img.webme.com/pic/c/creative-blog/v1-btnpreviousf.png) center left no-repeat; cursor: pointer; } /* Previous button */
-	
-	div.facebook .pp_bottom .pp_left { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -88px -80px no-repeat; } /* Bottom left corner */
-	div.facebook .pp_bottom .pp_middle { background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatternbottom.png) top left repeat-x; } /* Bottom pattern/color */
-	div.facebook .pp_bottom .pp_right { background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -110px -80px no-repeat; } /* Bottom right corner */
+/* ----------------------------------
+    Facebook style Theme
+----------------------------------- */
+
+div.facebook .pp_top .pp_left {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -88px -53px no-repeat;
+}
+
+/* Top left corner */
+div.facebook .pp_top .pp_middle {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatterntop.png) top left repeat-x;
+}
+
+/* Top pattern/color */
+div.facebook .pp_top .pp_right {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -110px -53px no-repeat;
+}
+
+/* Top right corner */
+
+div.facebook .pp_content .ppt {
+    color: #000;
+}
+
+div.facebook .pp_content_container .pp_left {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatternleft.png) top left repeat-y;
+}
+
+/* Content background */
+div.facebook .pp_content_container .pp_right {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatternright.png) top right repeat-y;
+}
+
+/* Content background */
+div.facebook .pp_content {
+    background: #eee8da;
+}
+
+/* Content background */
+div.facebook .pp_expand {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -31px -26px no-repeat;
+    cursor: pointer;
+}
+
+/* Expand button */
+div.facebook .pp_expand:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -31px -47px no-repeat;
+    cursor: pointer;
+}
+
+/* Expand button hover */
+div.facebook .pp_contract {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) 0 -26px no-repeat;
+    cursor: pointer;
+}
+
+/* Contract button */
+div.facebook .pp_contract:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) 0 -47px no-repeat;
+    cursor: pointer;
+}
+
+/* Contract button hover */
+div.facebook .pp_close {
+    width: 22px;
+    height: 22px;
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -1px -1px no-repeat;
+    cursor: pointer;
+}
+
+/* Close button */
+div.facebook .pp_details {
+    position: relative;
+}
+
+div.facebook .pp_description {
+    margin: 0 37px 0 0;
+}
+
+div.facebook #pp_full_res .pp_inline {
+    color: #000;
+}
+
+div.facebook .pp_loaderIcon {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-loaderl.gif) center center no-repeat;
+}
+
+/* Loader icon */
+
+div.facebook .pp_arrow_previous {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) 0 -71px no-repeat;
+    height: 22px;
+    margin-top: 0;
+    width: 22px;
+}
+
+/* The previous arrow in the bottom nav */
+div.facebook .pp_arrow_previous.disabled {
+    background-position: 0 -96px;
+    cursor: default;
+}
+
+div.facebook .pp_arrow_next {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -32px -71px no-repeat;
+    height: 22px;
+    margin-top: 0;
+    width: 22px;
+}
+
+/* The next arrow in the bottom nav */
+div.facebook .pp_arrow_next.disabled {
+    background-position: -32px -96px;
+    cursor: default;
+}
+
+div.facebook .pp_nav {
+    margin-top: 0;
+}
+
+div.facebook .pp_nav p {
+    font-size: 15px;
+    padding: 0 3px 0 4px;
+}
+
+div.facebook .pp_nav .pp_play {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -1px -123px no-repeat;
+    height: 22px;
+    width: 22px;
+}
+
+div.facebook .pp_nav .pp_pause {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -32px -123px no-repeat;
+    height: 22px;
+    width: 22px;
+}
+
+div.facebook .pp_next:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-btnnextf.png) center right no-repeat;
+    cursor: pointer;
+}
+
+/* Next button */
+div.facebook .pp_previous:hover {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-btnpreviousf.png) center left no-repeat;
+    cursor: pointer;
+}
+
+/* Previous button */
+
+div.facebook .pp_bottom .pp_left {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -88px -80px no-repeat;
+}
+
+/* Bottom left corner */
+div.facebook .pp_bottom .pp_middle {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-contentpatternbottom.png) top left repeat-x;
+}
+
+/* Bottom pattern/color */
+div.facebook .pp_bottom .pp_right {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-spritef.png) -110px -80px no-repeat;
+}
+
+/* Bottom right corner */
 
 
 /* ------------------------------------------------------------------------
 	DO NOT CHANGE
 ------------------------------------------------------------------------- */
 
-	div.pp_pic_holder a:focus { outline:none; }
+div.pp_pic_holder a:focus {
+    outline: none;
+}
 
-	div.pp_overlay {
-		background: #000;
-		display: none;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100% !important;
-		z-index: 9500;
-	}
-	
-	div.pp_pic_holder {
-		display: none;
-		position: absolute;
-		width: 100px;
-		z-index: 10000;
-	}
+div.pp_overlay {
+    background: #000;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100% !important;
+    z-index: 9500;
+}
 
-		
-		.pp_top {
-			height: 20px;
-			position: relative;
-		}
-			* html .pp_top { padding: 0 20px; }
-		
-			.pp_top .pp_left {
-				height: 20px;
-				left: 0;
-				position: absolute;
-				width: 20px;
-			}
-			.pp_top .pp_middle {
-				height: 20px;
-				left: 20px;
-				position: absolute;
+div.pp_pic_holder {
+    display: none;
+    position: absolute;
+    width: 100px;
+    z-index: 10000;
+}
 
-				right: 20px;
-			}
-				* html .pp_top .pp_middle {
-					left: 0;
-					position: static;
-				}
-			
-			.pp_top .pp_right {
-				height: 20px;
-				left: auto;
-				position: absolute;
-				right: 0;
-				top: 0;
-				width: 20px;
-			}
-		
-		.pp_content { height: 40px; min-width: 40px; background-color:#eee8da; }
-		* html .pp_content { width: 40px; }
-		
-		.pp_fade { display: none; }
-		
-		.pp_content_container {
-			position: relative;
-			text-align: left;
-			width: 100%;
-		}
-		
-			.pp_content_container .pp_left { padding-left: 20px; }
-			.pp_content_container .pp_right { padding-right: 20px; }
-		
-			.pp_content_container .pp_details {
-				float: left;
-				margin: 10px 0 2px 0;
-			}
-				.pp_description {
-					display: none;
-					margin: 0;
-				}
-				
-				.pp_social { float: left; margin: 7px 0 0 0; }
-				.pp_social .facebook { float: left; position: relative; top: -1px; margin-left: 5px; width: 55px; overflow: hidden; }
-				.pp_social .twitter { float: left; }
-				
-				.pp_nav {
-					clear: right;
-					float: left;
-					margin: 3px 10px 0 0;
-				}
-				
-					.pp_nav p {
-						float: left;
-						margin: 2px 4px;
-					}
-					
-					.pp_nav .pp_play,
-					.pp_nav .pp_pause {
-						float: left;
-						margin-right: 4px;
-						text-indent: -10000px;
-					}
-				
-					a.pp_arrow_previous,
-					a.pp_arrow_next {
-						display: block;
-						float: left;
-						height: 15px;
-						margin-top: 3px;
-						overflow: hidden;
-						text-indent: -10000px;
-						width: 14px;
-					}
-		
-		.pp_hoverContainer {
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 2000;
-		}
-		
-		.pp_gallery {
-			display: none;
-			left: 50%;
-			margin-top: -50px;
-			position: absolute;
-			z-index: 10000;
-			overflow:hidden;
-		}
-		
-			.pp_gallery div {
-				float: left;
-				overflow: hidden;
-				position: relative;
-			}
-			
-			.pp_gallery ul {
-				float: left;
-				height: 35px;
-				margin: 0 0 0 5px;
-				padding: 0;
-				position: relative;
-				white-space: nowrap;
-			}
-			
-			.pp_gallery ul a {
-				border: 1px #000 solid;
-				border: 1px rgba(0,0,0,0.5) solid;
-				display: block;
-				float: left;
-				height: 33px;
-				overflow: hidden;
-			}
-			
-			.pp_gallery ul a:hover,
-			.pp_gallery li.selected a { border-color: #eee8da; }
-			
-			.pp_gallery ul a img { border: 0; }
-			
-			.pp_gallery li {
-				display: block;
-				float: left;
-				margin: 0 5px 0 0;
-				padding: 0;
-			}
-			
-			.pp_gallery li.default a {
-				background: url(http://img.webme.com/pic/c/creative-blog/v1-default_thumbnail.gif) 0 0 no-repeat;
-				display: block;
-				height: 33px;
-				width: 50px;
-			}
-			
-			.pp_gallery li.default a img { display: none; }
-			
-			.pp_gallery .pp_arrow_previous,
-			.pp_gallery .pp_arrow_next {
-				margin-top: 7px !important;
-			}
-		
-		a.pp_next {
-			background: url(http://img.webme.com/pic/c/creative-blog/btnnext.png) 10000px 10000px no-repeat;
-			display: block;
-			float: right;
-			height: 100%;
-			text-indent: -10000px;
-			width: 49%;
-		}
-			
-		a.pp_previous {
-			background: url(http://img.webme.com/pic/c/creative-blog/btnprevious.png) 10000px 10000px no-repeat;
-			display: block;
-			float: left;
-			height: 100%;
-			text-indent: -10000px;
-			width: 49%;
-		}
-		
-		a.pp_expand,
-		a.pp_contract {
-			cursor: pointer;
-			display: none;
-			height: 20px;	
-			position: absolute;
-			right: 30px;
-			text-indent: -10000px;
-			top: 10px;
-			width: 20px;
-			z-index: 20000;
-		}
-			
-		a.pp_close {
-			position: absolute; right: 0; top: 0; 
-			display: block;
-			line-height:22px;
-			text-indent: -10000px;
-		}
-		
-		.pp_bottom {
-			height: 20px;
-			position: relative;
-		}
-			* html .pp_bottom { padding: 0 20px; }
-			
-			.pp_bottom .pp_left {
-				height: 20px;
-				left: 0;
-				position: absolute;
-				width: 20px;
-			}
-			.pp_bottom .pp_middle {
-				height: 20px;
-				left: 20px;
-				position: absolute;
-				right: 20px;
-			}
-				* html .pp_bottom .pp_middle {
-					left: 0;
-					position: static;
-				}
-				
-			.pp_bottom .pp_right {
-				height: 20px;
-				left: auto;
-				position: absolute;
-				right: 0;
-				top: 0;
-				width: 20px;
-			}
-		
-		.pp_loaderIcon {
-			display: block;
-			height: 24px;
-			left: 50%;
-			margin: -12px 0 0 -12px;
-			position: absolute;
-			top: 50%;
-			width: 24px;
-		}
-		
-		#pp_full_res {
-			line-height: 1 !important;
-		}
-		
-			#pp_full_res .pp_inline {
-				text-align: left;
-			}
-			
-				#pp_full_res .pp_inline p { margin: 0 0 15px 0; }
-	
-		div.ppt {
-			color: #fff;
-			display: none;
-			font-size: 17px;
-			margin: 0 0 5px 15px;
-			z-index: 9999;
-		}
+
+.pp_top {
+    height: 20px;
+    position: relative;
+}
+
+* html .pp_top {
+    padding: 0 20px;
+}
+
+.pp_top .pp_left {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+
+.pp_top .pp_middle {
+    height: 20px;
+    left: 20px;
+    position: absolute;
+
+    right: 20px;
+}
+
+* html .pp_top .pp_middle {
+    left: 0;
+    position: static;
+}
+
+.pp_top .pp_right {
+    height: 20px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+
+.pp_content {
+    height: 40px;
+    min-width: 40px;
+    background-color: #eee8da;
+}
+
+* html .pp_content {
+    width: 40px;
+}
+
+.pp_fade {
+    display: none;
+}
+
+.pp_content_container {
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.pp_content_container .pp_left {
+    padding-left: 20px;
+}
+
+.pp_content_container .pp_right {
+    padding-right: 20px;
+}
+
+.pp_content_container .pp_details {
+    float: left;
+    margin: 10px 0 2px 0;
+}
+
+.pp_description {
+    display: none;
+    margin: 0;
+}
+
+.pp_social {
+    float: left;
+    margin: 7px 0 0 0;
+}
+
+.pp_social .facebook {
+    float: left;
+    position: relative;
+    top: -1px;
+    margin-left: 5px;
+    width: 55px;
+    overflow: hidden;
+}
+
+.pp_social .twitter {
+    float: left;
+}
+
+.pp_nav {
+    clear: right;
+    float: left;
+    margin: 3px 10px 0 0;
+}
+
+.pp_nav p {
+    float: left;
+    margin: 2px 4px;
+}
+
+.pp_nav .pp_play,
+.pp_nav .pp_pause {
+    float: left;
+    margin-right: 4px;
+    text-indent: -10000px;
+}
+
+a.pp_arrow_previous,
+a.pp_arrow_next {
+    display: block;
+    float: left;
+    height: 15px;
+    margin-top: 3px;
+    overflow: hidden;
+    text-indent: -10000px;
+    width: 14px;
+}
+
+.pp_hoverContainer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.pp_gallery {
+    display: none;
+    left: 50%;
+    margin-top: -50px;
+    position: absolute;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+.pp_gallery div {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.pp_gallery ul {
+    float: left;
+    height: 35px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.pp_gallery ul a {
+    border: 1px #000 solid;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    display: block;
+    float: left;
+    height: 33px;
+    overflow: hidden;
+}
+
+.pp_gallery ul a:hover,
+.pp_gallery li.selected a {
+    border-color: #eee8da;
+}
+
+.pp_gallery ul a img {
+    border: 0;
+}
+
+.pp_gallery li {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+.pp_gallery li.default a {
+    background: url(http://img.webme.com/pic/c/creative-blog/v1-default_thumbnail.gif) 0 0 no-repeat;
+    display: block;
+    height: 33px;
+    width: 50px;
+}
+
+.pp_gallery li.default a img {
+    display: none;
+}
+
+.pp_gallery .pp_arrow_previous,
+.pp_gallery .pp_arrow_next {
+    margin-top: 7px !important;
+}
+
+a.pp_next {
+    background: url(http://img.webme.com/pic/c/creative-blog/btnnext.png) 10000px 10000px no-repeat;
+    display: block;
+    float: right;
+    height: 100%;
+    text-indent: -10000px;
+    width: 49%;
+}
+
+a.pp_previous {
+    background: url(http://img.webme.com/pic/c/creative-blog/btnprevious.png) 10000px 10000px no-repeat;
+    display: block;
+    float: left;
+    height: 100%;
+    text-indent: -10000px;
+    width: 49%;
+}
+
+a.pp_expand,
+a.pp_contract {
+    cursor: pointer;
+    display: none;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    text-indent: -10000px;
+    top: 10px;
+    width: 20px;
+    z-index: 20000;
+}
+
+a.pp_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    line-height: 22px;
+    text-indent: -10000px;
+}
+
+.pp_bottom {
+    height: 20px;
+    position: relative;
+}
+
+* html .pp_bottom {
+    padding: 0 20px;
+}
+
+.pp_bottom .pp_left {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+
+.pp_bottom .pp_middle {
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+* html .pp_bottom .pp_middle {
+    left: 0;
+    position: static;
+}
+
+.pp_bottom .pp_right {
+    height: 20px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+}
+
+.pp_loaderIcon {
+    display: block;
+    height: 24px;
+    left: 50%;
+    margin: -12px 0 0 -12px;
+    position: absolute;
+    top: 50%;
+    width: 24px;
+}
+
+#pp_full_res {
+    line-height: 1 !important;
+}
+
+#pp_full_res .pp_inline {
+    text-align: left;
+}
+
+#pp_full_res .pp_inline p {
+    margin: 0 0 15px 0;
+}
+
+div.ppt {
+    color: #fff;
+    display: none;
+    font-size: 17px;
+    margin: 0 0 5px 15px;
+    z-index: 9999;
+}
 
 /* Lightbox Bitir */
 
 /* İkon Paylas */
 
-#pay-alan{
-	width:565px;
-	margin-right:auto;
-	margin-left:auto;	
-}
-.pay-ekle textarea {
-	width: 140px;
-	height: 50px;
-	margin-top: 10px;
-}
-.pay-pencere {
-	width: 165px;
-	height: 210px;
-	float:left;
-	margin: 10px 10px;
-}
-.pay-ekle {
-	background-image: url(https://img.webme.com/pic/c/creative-blog/RD-smalkutucukv1.png);
-	height: 75px;
-	width: 165px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.pay-pencere img{
-	margin-right: auto;
-	margin-left: auto;
+#pay-alan {
+    width: 565px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-/* İkon Paylas */
+.pay-ekle textarea {
+    width: 140px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.pay-pencere {
+    width: 165px;
+    height: 210px;
+    float: left;
+    margin: 10px 10px;
+}
+
+.pay-ekle {
+    background-image: url(https://img.webme.com/pic/c/creative-blog/RD-smalkutucukv1.png);
+    height: 75px;
+    width: 165px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pay-pencere img {
+    margin-right: auto;
+    margin-left: auto;
+}
